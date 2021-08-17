@@ -20,33 +20,25 @@ public class Employee {
 			return id;
 		}
 
-		public void setId(int id) {
-			this.id = id;
-		}
+		
 
 		public int getDeptId() {
 			return deptId;
 		}
 
-		public void setDeptId(int deptId) {
-			this.deptId = deptId;
-		}
+		
 
 		public String getName() {
 			return name;
 		}
 
-		public void setName(String name) {
-			this.name = name;
-		}
+		
 
 		public int getSalary() {
 			return salary;
 		}
 
-		public void setSalary(int salary) {
-			this.salary = salary;
-		}
+		
 
 		@Override
 		public String toString() {
